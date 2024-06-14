@@ -8,6 +8,9 @@ list_people = {
     'Isa':['09/10', '+55 99 ****-****'],
 }
 
+
+
+
 class Mensager():
 
     def __init__(self):
@@ -22,8 +25,8 @@ class Mensager():
           else:
               print(False)
 
-people = Mensager()
-people.bot()
+client = Mensager()
+client.bot()
 
     
         
